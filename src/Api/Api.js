@@ -45,11 +45,6 @@ export const profileAPI = {
       .put(`profile/status/`, { status: status })
       .then((response) => response.data);
   },
-  saveProfile(profile) {
-    return axiosInstance
-      .put(`profile`, profile)
-    .then(response => response.data)
-  }
 };
 
 export const transactionsAPI = {
