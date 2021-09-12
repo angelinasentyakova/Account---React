@@ -1,0 +1,47 @@
+.header {
+  height: 60px;
+  background-color: #BCBABE;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  padding: 0px 50px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.logo {
+  font-size: 30px;
+  color: #b3d6dd;
+  margin-right: 50px;
+}
+
+.menu-links ul {
+  display: flex;
+}
+
+.menu-links ul li {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu-links ul li a {
+  color: #F1F1F2;
+}
+
+.login-logout {
+position: absolute;
+right: 50px;
+}
+
+.login-logout a {
+  font-size: 20px;
+  color: #F1F1F2;
+  cursor: pointer;
+}
+
+.greetings-user {
+  font-size: 20px;
+  color: #1995AD;
+  margin-right: 40px;
+}

@@ -1,0 +1,28 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  min-width: 400px;
+  margin: 0px 15px;
+}
+
+.pagination li {
+  padding: 5px 3px;
+  background-color: #BCBABE;
+  color: #F1F1F2;
+  border-radius: 10px;
+  margin: 0px 3px;
+  font-weight: 600;
+  min-width: 35px;
+display: flex;
+justify-content: center;
+cursor: pointer;
+}
+
+.pagination li.selected-page {
+  background-color: #505160; 
+}
